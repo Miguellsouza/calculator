@@ -1,60 +1,60 @@
-# 🧮 Calculadora
+# 🧮 Calculator
 
-Uma calculadora web simples e elegante, com visual em *glassmorphism* sobre um fundo de montanhas em preto e branco.
+A simple and elegant web calculator with a glassmorphism look over a black-and-white mountain background.
 
-## 🔗 Acesse o site
+## 🔗 Live Demo
 
 **👉 [https://miguellsouza.github.io/calculator/](https://miguellsouza.github.io/calculator/)**
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- Operações básicas: soma (`+`), subtração (`-`), multiplicação (`*`) e divisão (`/`)
-- Números decimais com o botão de ponto (`.`)
-- Botão **C** para limpar o visor
-- Botão de **apagar** o último caractere digitado
-- Botão **=** para calcular o resultado
-- Visual com efeito de vidro (`backdrop-filter: blur`) e sombra suave
+- Basic operations: addition (`+`), subtraction (`-`), multiplication (`*`) and division (`/`)
+- Decimal numbers with the dot (`.`) button
+- **C** button to clear the display
+- Backspace button to delete the last typed character
+- **=** button to calculate the result
+- Glass effect (`backdrop-filter: blur`) with a soft shadow
 
-## 🛠️ Tecnologias
+## 🛠️ Built With
 
-- **HTML5**: estrutura da página
-- **CSS3**: estilização (flexbox, `backdrop-filter`, `box-shadow`)
-- **JavaScript**: lógica da calculadora
-- **[Font Awesome 7](https://fontawesome.com/)**: ícones dos botões
+- **HTML5**: page structure
+- **CSS3**: styling (flexbox, `backdrop-filter`, `box-shadow`)
+- **JavaScript**: calculator logic
+- **[Font Awesome 7](https://fontawesome.com/)**: button icons
 
-## 📁 Estrutura do projeto
+## 📁 Project Structure
 
 ```
 calculator/
-├── index.html                                      # Página principal e script
-├── estilizacaocalculadora.css                      # Estilos da calculadora
-├── background.jpg                                  # Imagem de fundo original
-├── background_upscayl_3x_upscayl-standard-4x.png   # Fundo em alta resolução (usado no CSS)
-└── logo.webp                                       # Ícone da aba (favicon)
+├── index.html                                      # Main page and script
+├── estilizacaocalculadora.css                      # Calculator styles
+├── background.jpg                                  # Original background image
+├── background_upscayl_3x_upscayl-standard-4x.png   # High-resolution background (used in the CSS)
+└── logo.webp                                       # Tab icon (favicon)
 ```
 
-## 🚀 Como executar localmente
+## 🚀 Running Locally
 
-1. Clone o repositório:
+1. Clone the repository:
    ```bash
    git clone https://github.com/miguellsouza/calculator.git
    ```
-2. Entre na pasta:
+2. Enter the folder:
    ```bash
    cd calculator
    ```
-3. Abra o arquivo `index.html` no navegador (basta dar dois cliques).
+3. Open `index.html` in your browser (just double-click it).
 
-Não é necessário instalar nada. O projeto roda direto no navegador. Só é preciso conexão com a internet para carregar os ícones do Font Awesome.
+Nothing needs to be installed. The project runs directly in the browser. An internet connection is only needed to load the Font Awesome icons.
 
-## 💡 Ideias para melhorias futuras
+## 💡 Future Improvements
 
-- Substituir o `eval()` por um interpretador de expressões mais seguro
-- Tratar expressões inválidas (ex.: `5++`) e divisão por zero
-- Adicionar suporte ao teclado
-- Incluir porcentagem, parênteses e histórico de cálculos
-- Deixar o layout totalmente responsivo para celulares
+- Replace `eval()` with a safer expression parser
+- Handle invalid expressions (e.g. `5++`) and division by zero
+- Add keyboard support
+- Include percentage, parentheses and calculation history
+- Make the layout fully responsive for mobile devices
 
-## 👤 Autor
+## 👤 Author
 
-Feito por [@miguellsouza](https://github.com/miguellsouza).
+Made by [@miguellsouza](https://github.com/miguellsouza).
